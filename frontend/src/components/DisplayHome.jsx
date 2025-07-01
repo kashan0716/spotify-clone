@@ -15,7 +15,7 @@ const DisplayHome = () => {
       <Navbar />
       <div className="mb-4">
         <h1 className="my-5 font-bold text-3xl">Top Playlist</h1>
-        <div className="flex overflow-auto w-60 h-60">
+        <div className="flex overflow-auto">
           {albumsData.map((item, index) => (
             <AlbumItem
               key={index}
